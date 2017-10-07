@@ -1,2 +1,129 @@
 ﻿body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    padding-top: 0px;
+    background-color:rgb(71, 78, 93);
+}
+/*NavBar*/
+nav#navvy.navbar.navbar-static-top{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:rgb(71, 78, 93);
+    background-color:rgb(71, 78, 93);
+}
+#navvy a{
+    color:rgb(255, 255, 255);
+    text-align:right;
+}
+#navvy a:hover{
+    background-color:transparent;
+}
+.poolLeft{
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    background-size:cover;
+    min-height: 372px;
+}
+.mapRight{
+    background-image: url('Images/Versilia.jpg');
+    background-size:cover;
+    min-height: 372px;
+}
+.text-heading1{
+    text-align:center;
+    color: white;
+}
+.text-heading2{
+    text-align: center;
+    color: white;
+}
+.text-footer{
+    text-align: center;
+    color: white;
+}
+.layout-One{
+    background-color: rgb(255, 255, 255);
+    background-size: contain;
+}
+.text-info{
+    text-size-adjust:auto;
+    color: rgb(71, 78, 93); 
+}
+.containerTitle{
+    color: rgb(71, 78, 93); 
+}
+.locationImgRight{
+    max-height:300px;
+}
+.containerTitleTwo{
+    color: rgb(255, 255, 255); 
+}
+.text-info-Two{
+    color: rgb(255, 255, 255);
+}
+.locationImgLeft{
+    max-height: 250px;
+}
+.layout-Two{
+    background-color: rgb(71, 78, 93);
+}
+.page-header{
+    border-bottom: none;
+}
+.ammenities{
+    background-color: rgb(255, 255, 255);
+}
+.column-left-one {
+    background-image: url('Images/3b-348x348.jpg');
+    min-height: 348px;
+    background-repeat: no-repeat;
+}
+.column-center-one{
+    text-align: center;
+    color: rgb(71, 78, 93);
+}
+.column-right-one {
+    background-image: url('Images/42-348x348.jpg');
+    min-height: 348px;
+    background-repeat: no-repeat;
+}
+.column-left-two {
+    text-align: center;
+    color: rgb(71, 78, 93);
+}
+.column-center-two {
+    background-image: url('Images/314-348x348.jpg');
+    min-height: 348px;
+    background-repeat: no-repeat;
+}
+.column-right-two {
+    text-align: center;
+    color: rgb(71, 78, 93);
+}
+.column-left-three {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    min-height: 348px;
+    background-repeat: no-repeat;
+}
+.column-center-three {
+    text-align: center;
+    color: rgb(71, 78, 93);
+}
+.column-right-three {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    min-height: 348px;
+    background-repeat: no-repeat;
+}
+.carousel{
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-page{
+   background-color: rgb(255, 255, 255); 
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.column-text{
+    color:  rgb(71, 78, 93)
+    ActiveBorder
 }
