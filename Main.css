@@ -3,76 +3,93 @@
     padding-top: 0px;
     background-color:rgb(71, 78, 93);
 }
-/*NavBar*/
+/*NAVBAR*/
 nav#navvy.navbar.navbar-static-top{
     margin-top: 0px;
     margin-bottom: 0px;
     color:rgb(71, 78, 93);
     background-color:rgb(71, 78, 93);
+    background-size: cover;
 }
 #navvy a{
     color:rgb(255, 255, 255);
     text-align:right;
+    background-color:rgb(71, 78, 93);
 }
 #navvy a:hover{
     background-color:transparent;
 }
-.poolLeft{
+/*BANNER*/
+.poolLeft {
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
-    background-size:cover;
-    min-height: 372px;
+    background-size: cover;
     background-repeat: no-repeat;
+    min-height: 348px;
 }
 .mapRight{
-    background-image: url('Images/Versilia.jpg');
-    background-size:cover;
-    min-height: 372px;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    height: auto;
 }
-.text-heading1{
+/*PAGE HEADERS*/
+.pageHeading{
     text-align:center;
     color: white;
 }
-.text-heading2{
+.pageHeading2{
     text-align: center;
     color: white;
 }
-.text-footer{
-    text-align: center;
-    color: white;
+.pageTitle{
+    background-color:rgb(71, 78, 93);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-.layout-One{
+/*LOCATIONS*/
+.layoutOne{
     background-color: rgb(255, 255, 255);
     background-size: cover;
+    background-repeat: no-repeat;
     padding-top:50px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
-.text-info{
+.locationInfoOne{
     text-size-adjust:auto;
     color: rgb(71, 78, 93); 
 }
-.containerTitle{
+.containerTitleOne{
     color: rgb(71, 78, 93); 
 }
 .locationImgRight{
-    max-height:300px;
-    padding-left: 50px;
+    max-height: 275px;
+    padding: 0px;
+    margin: 0px;
 }
 .containerTitleTwo{
     color: rgb(255, 255, 255); 
 }
-.text-info-Two{
+.locationInfoTwo{
     color: rgb(255, 255, 255);
+    text-size-adjust:auto;
 }
 .locationImgLeft{
-    max-height: 300px;
-    padding-right: 50px;
+    max-height: 275px;
+    padding: 0px;
+    margin: 0px;
 }
-.layout-Two{
+.layoutTwo{
     background-color: rgb(71, 78, 93);
     background-size: cover;
+    background-repeat: no-repeat;
     padding-top:50px;
     padding-bottom: 50px;
     padding-left: 50px;
@@ -87,6 +104,32 @@ nav#navvy.navbar.navbar-static-top{
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
+}
+.transBox{
+    background-color: rgb(71, 78, 93);
+    opacity: 0.85;
+    max-height: 80px;
+    max-width: 270px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.transBox h1{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+.transBox2{
+    background-color: rgb(71, 78, 93);
+    opacity: 0.85;
+    max-height: 90px;
+    max-width: 250px;
+    margin-top: 150px;
+    margin-left: 75px;
+}
+.transBox2 h2{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
 }
 .column-left-one {
     background-image: url('Images/3b-348x348.jpg');
@@ -133,8 +176,7 @@ nav#navvy.navbar.navbar-static-top{
     min-height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.carousel{
+}.carousel{
     text-align:center;
     background-color: rgb(255, 255, 255);
     padding-top: 50px;
@@ -148,13 +190,34 @@ nav#navvy.navbar.navbar-static-top{
    padding-right: 50px;
 }
 .column-text{
-    color:  rgb(71, 78, 93)
-    ActiveBorder
-}
-.carousel-indicators{
-    color: rgb(71, 78, 93)
+    color:  rgb(71, 78, 93);
 }
 .page-footer{
    padding-top: 50px;
    padding-bottom: 50px;
+}
+.text-footer{
+    text-align:center;
+    color: white;
+}
+.btn-primary {
+    background: rgb(71, 78, 93);
+    border-radius: 0px;
+    outline: none;
+}
+.btn-primary:hover{
+    background-color: silver;
+    outline: none;
+    border: none;
+}
+.btn-primary2 {
+    background: white;
+    border-radius: 0px;
+    outline: none;
+    color: rgb(71, 78, 93);
+}
+.btn-primary2:hover{
+    background-color: silver;
+    outline: none;
+    border: none;
 }
