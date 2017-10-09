@@ -176,11 +176,12 @@ nav#navvy.navbar.navbar-static-top{
     min-height: 348px;
     background-repeat: no-repeat;
     background-size: cover;
-}.carousel{
+}
+.carousel.slide{
     text-align:center;
     background-color: rgb(255, 255, 255);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .contact-page{
    background-color: rgb(255, 255, 255); 
